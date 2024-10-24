@@ -1,0 +1,18 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Law {
+  id          Int     @id @default(autoincrement())
+  sagId       Int     @unique // The ID from the API, must be unique
+  title       String
+  typeId      Int
+  statusId    Int
+  description String?
+  createdAt   DateTime @default(now())
+}
