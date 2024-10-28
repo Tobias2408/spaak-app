@@ -17,7 +17,9 @@ To view the Kanban board, go to http://localhost:3000/kanban. This page displays
 ## Database Setup
 To set up the database connection:
 
-## Go to your .env file and set up your database connection details, such as ## DATABASE_URL.
+## Go to your .env file and set up your database connection details, such as 
+
+## DATABASE_URL.
 
 Once configured, refer to the API Documentation for endpoint and setup details specific to your database.
 This ensures that your API routes are connected and can interact with your database correctly.
