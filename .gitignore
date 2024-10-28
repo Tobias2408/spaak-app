@@ -1,3 +1,4 @@
+# GitHub recommended
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -7,25 +8,39 @@
 
 # testing
 /coverage
+/.jest/
+/jest-cache/
+/jest.config.js
 
 # next.js
 /.next/
 /out/
+.next/cache
 
-# production
+# production build output
 /build
+dist/
+
+# Prisma files (if using Prisma with SQLite)
+prisma/*.db
+prisma/*.db-journal
 
 # misc
-.DS_Store
-*.pem
+.DS_Store         # macOS system files
+Thumbs.db         # Windows system files
+*.pem             # SSL certs, if used
 
-# debug
+# debug logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# environment variables
+.env
 .env*.local
+.env.*.local
+.env.development
+.env.production
 
 # vercel
 .vercel
@@ -33,3 +48,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE-specific files
+.vscode/
+.idea/
+*.swp
