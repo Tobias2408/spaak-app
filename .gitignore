@@ -49,6 +49,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Tailwind CSS and other config files
+!tailwind.config.js
+!postcss.config.js
+!tsconfig.json
+
 # IDE-specific files
 .vscode/
 .idea/
