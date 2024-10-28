@@ -2,22 +2,22 @@
 
 To run the application, use one of the following commands:
 
-npm run dev
+**npm run dev**
 
-or yarn dev
+**or yarn dev**
 
-or pnpm dev
+**or pnpm dev**
 
-Then, open http://localhost:3000/kanban in your browser to access the home page.
+Then, open **http://localhost:3000/kanban** in your browser to access the home page.
 
 ## Main Kanban Board
 
-To view the Kanban board, go to http://localhost:3000/kanban. This page displays laws under proposal in the Danish Parliament at different stages in the political process.
+To view the Kanban board, go to **http://localhost:3000/kanban.** This page displays laws under proposal in the Danish Parliament at different stages in the political process.
 
 ## Database Setup
 To set up the database connection:
 
-## Go to your .env file and set up your database connection details, such as DATABASE_URL.
+### Go to your .env file and set up your database connection details, such as DATABASE_URL.
 
 Once configured, refer to the API Documentation for endpoint and setup details specific to your database.
 This ensures that your API routes are connected and can interact with your database correctly.
